@@ -6,7 +6,7 @@ import 'package:alium_sdk/alium.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  Alium.config("");
+  Alium.config("https://assets.aliumsurvey.com/app/cstjn/cstjn_16.json");
   runApp(const MyApp());
 }
 

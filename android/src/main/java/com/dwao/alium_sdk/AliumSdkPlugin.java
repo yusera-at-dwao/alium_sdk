@@ -40,7 +40,7 @@ public class AliumSdkPlugin implements FlutterPlugin, MethodCallHandler, Activit
     channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "alium_sdk");
     channel.setMethodCallHandler(this);
     Alium.setShouldResetOnBackground(true);
-    Log.d("channel", "onAttachedToEngine");
+//    Log.d("channel", "onAttachedToEngine");
   }
 
   @Override
